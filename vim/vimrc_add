@@ -1,0 +1,15 @@
+"set tab to 4 space
+set ts=4
+set sw=4
+set expandtab
+set autoindent
+
+"Highlight all search pattern matches 
+set hls
+"Map F12 to create ctags index in current directory 
+map <F12> :!ctags -R <CR><CR>
+"A shotcut to execute the grep command 
+map mg :!grep
+"change the comment color  
+ hi Comment ctermfg=6 
+
